@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PortofolioKu</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    Tess
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li>Beranda</li>
+                <li>Tentang Saya</li>
+                <li>Detail Diri</li>
+            </ul>
+            <hr>
+        </nav>
+    </header>
+    
+    <!-- Main -->
+    <main>
+        <!-- Beranda -->
+        <section id="beranda" class="bg-blue-100 py-10">
+            <h1 class="text-5xl leading-tight mb-4 text-center">Halo, saya Shafnat Fuaini Ramadhan, <br> anda bisa memanggil saya <u>Shafnat</u></h1>
+        </section>
+        <hr>
+
+        <!-- <svg class="size-6 animate-bounce ...">
+        </svg> -->
+
+        <!-- Tentang Saya -->
+        <section id="tentang-saya" class="bg-gray-100 py-10">            
+            <!-- Card -->
+            <div class="bg-blue-100 p-10 mx-20 shadow-xl inset-ring-1 inset-ring-black-500 rounded-xl transition duration-700 hover:-translate-y-1 hover:scale-102 hover:bg-blue-100">
+                <!-- Column -->
+                <h2 class="text-5xl leading-tight pb-10">Tentang Saya</h2>
+                <div class="grid grid-cols-12 gap-5">
+                    
+                    <!-- Deskripsi Diri -->
+                    <div class="col-span-8">
+                        <p class="text-justify">
+                            Mahasiswa Telkom University, program studi D3 Sistem Informasi, semester 3. Memiliki minat dalam bidang sistem informasi.
+                            Memiliki pemahaman dalam dasar pemograman web, pemograman berbasis objek (OOP), basis data, dan desain UI/UX aplikasi web
+                            maupun mobile. Memiliki keinginan penuh untuk lebih mengembangkan keterampilan dan mencari banyak pengalaman baik dalam
+                            jurusan maupun luar serta keaktifan selama menjadi mahasiswa.
+                        </p>
+                    </div>
+
+                    <!-- Foto -->
+                    <div class="col-span-4 flex justify-center items-center">
+                        <img src="/photos/image.png" alt="Foto Shafnat" class="rounded-full h-100 object-cover shadow-lg">
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <hr>
+
+        <!-- Detail Diri -->
+        <section id="detail-diri">
+            <h2>Detail Diri</h2>
+            <p>Ini adalah halaman detail diri.</p>
+            <hr>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
 </body>
 </html>
